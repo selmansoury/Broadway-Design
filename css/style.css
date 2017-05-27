@@ -36,12 +36,17 @@ header .header h1 {
 }
 
 
+
+.our-process {
+	margin:0 auto;
+	text-align:center;
+}
+
 .our-process h2 {
 		font-family:Helvetica;
 		font-size:32px;
 		color:#000;
 		font-weight:bold;
-		text-align:center;
 }
 
 .our-process img {
@@ -49,19 +54,68 @@ header .header h1 {
 	margin:0 auto;
 }
 
+
 .our-process h3 {
 		font-family:Helvetica;
 		font-size:23px;
 		color:#000;
-		font-weight:bold;
-		text-align:center;
-		
+		font-weight:bold;		
 }
 
 .our-process p {
 		font-family:Helvetica;
 		font-size:14px;
 		color:#000;
-		text-align:center;
+}
+
+
+.designInNY {
+	margin:0 auto;
+	text-align:center;
+}
+
+.designInNY div.title h2 {
+		font-family:Helvetica;
+		font-size:23px;
+		color:#000;
+		font-weight:bold;
+		background-image: url('https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png');
+		}
+
+.designInNY p {
+		font-family:Helvetica;
+		font-size:14px;
+		color:#000;
 		
+}
+
+footer {
+	background-color: dimgrey;
+}
+
+footer .coName p{
+	font-family:Helvetica;
+	font-size:18px;
+	color:#fff;
+	float:left;
+	padding:0;
+	margin:0;
+	
+}
+
+footer ul {
+	float:left;
+	margin:0;
+}
+
+footer ul li {
+	list-style:none;
+	float:left;
+	margin-right:5px;
+}
+
+footer ul li a {
+	font-family:Helvetica;
+	color:white;
+	font-size: 18px;
 }
